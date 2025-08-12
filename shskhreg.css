@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@font-face { font-family: Amicable; src: url("https://dl.dropboxusercontent.com/s/rsqp6xj5dwtd21m9099n9/amicable.ttf?rlkey=hmy4bcn68alpl9hvue66grrfh&dl=0"); }
+
+/* CODE BY VALESKA @thelessyouknowthebetter FOR ROLEPLAYTH */
+
+.FPPPRTH-box {
+    width: 100%;
+    aspect-ratio: 1 / 0.7;
+    position: relative;
+}
+
+.FPP-PH {
+    width: 23%;
+    aspect-ratio: 3.8/4.2;
+    position: absolute;
+    top: 55%;
+    left: 3%;
+    background: url(https://iili.io/FEkzLzB.png) center/cover;
+    z-index: 3;
+    box-shadow: 0px 3px 3px 0px #141414;
+    filter: grayscale(100%);
+}
+
+.FPP-IMG {
+    width: 18%;
+    aspect-ratio: 4/3.9;
+    position: absolute;
+    top: 58%;
+    left: 7%;
+    background: var(--FFP-IMG1);
+    z-index: 2;
+    filter: grayscale(100%);
+}
+.FPP-OK {
+    width: 32%;
+   aspect-ratio: 6.49/2;
+    position: absolute;
+    top: 74%;
+    left: 65%;
+    background: url(https://iili.io/FEkjgrg.png) center / cover;
+    box-shadow: 0px 3px 3px 0px #141414;
+    rotate: 0deg;
+    z-index: 3;
+}
+.FPP-OF {
+    width: 27%;
+   aspect-ratio: 4.12/4.1;
+    position: absolute;
+    top: 3%;
+    left: 70%;
+    background: url(https://iili.io/FE9yq11.png) center / cover;
+    rotate: 0deg;
+    z-index: 0 ;
+}
+.FPP-OFF {
+    width: 30%;
+   aspect-ratio: 4.5/5;
+    position: absolute;
+    top: 5%;
+    left: 12%;
+    background: url(https://iili.io/FEH7wkg.png) center / cover;
+    rotate: 0deg;
+    z-index: 0 ;
+}
+.FPP-WIN {
+    width: 68%;
+    aspect-ratio: 3.03/2;
+    background: url(https://iili.io/F1pUHZl.jpg) center / cover;
+    position: absolute;
+    padding: 3vw;
+    top: 15%;
+    right: 9%;
+    box-sizing: border-box;
+    box-shadow: 0px 3px 3px 0px #141414;
+}
+
+.FPP-TEX {
+    width: 100%;
+    font-family: 'K2D';
+    font-size: clamp(0.6rem, 1vw, 1.2rem);
+    line-height: 180%;
+    color: #101010;
+    padding-top: 3vw;
+}
+
+.FPP-TXT {
+    position: absolute;
+    width: 85%;
+    height: 75%;
+    overflow-y: auto;
+    text-align: justify;
+    top: 15%;
+    left: 7%;
+}
+
+.FPP-TXT::-webkit-scrollbar {display: none;}
