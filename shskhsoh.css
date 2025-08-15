@@ -197,6 +197,7 @@
   left: 11%;
   margin: auto; 
   font-family: 'Amicable';
+  text-align: center;
   color: var(--hah-cl);  
   font-size: 3vw;  
   text-shadow: 2px 2px var(--hah-sh)
@@ -286,6 +287,7 @@
   left: 11%;
   margin: auto; 
   font-family: 'Amicable';
+  text-align: center;
   color: var(--hsh-cl);  
   font-size: 3vw;  
   text-shadow: 2px 2px var(--hsh-sh)
