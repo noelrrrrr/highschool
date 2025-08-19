@@ -1,22 +1,28 @@
 .jpjz-window { 
   background: #e0e0e0;
   border: 2px solid #555;
-  max-width: 780px;
+  max-width: 900px;
   width: 100%;
-  padding: 20px;
+  padding: 30px 0px 20px;       
   margin: 0 auto;
   box-sizing: border-box;
 }
 
+
 .jpjz-window-header {
+  width: 100%;
+  max-width: 835px; 
+  margin: 0 auto;
   background: #000;
   color: #fff;
   padding: 5px 10px;
   font-size: 18px;
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   align-items: center;
+  box-sizing: border-box;
 }
+
 
 .jpjz-window-close {
   background: #fff;
@@ -30,12 +36,15 @@
   align-items: center;
 }
 
+
 .jpjz-window-title {
   font-family: "Mochiy Pop P One", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 15px;
+  font-size: 18px;
+  padding: 5px;
 }
+
 
 .jpjz-page-wrapper {
   display: flex;
@@ -44,16 +53,21 @@
   align-items: center;
   height: 100%;
   box-sizing: border-box;
-  padding-top: 15px;
+  padding: 15px;              
+  width: 100%;               
 }
 
+
 .jpjz-image-container {
-  position: relative;
-  width: 734px;
-  aspect-ratio: 4 / 3;
+  position: relative;  
+  height: 100%;              
+  width: 100%;
+  max-width: 835px;          
   overflow: hidden;
   border: 2px solid #555;
+  box-sizing: border-box;      
 }
+
 
 .jpjz-image-container img {
   width: 100%;
@@ -63,6 +77,7 @@
   display: block;
 }
 
+
 .jpjz-fade-bottom {
   position: absolute;
   left: 0;
@@ -71,6 +86,7 @@
   height: 35%;
   background: linear-gradient(to bottom, transparent, #000);
 }
+
 
 .jpjz-room-text {
   position: absolute;
@@ -86,8 +102,10 @@
   letter-spacing: 2px;
 }
 
+
 .jpjz-text-box {
-  width: 740px;
+  width: 100%;
+  max-width: 835px; 
   text-align: justify;
   border: 2px solid #555;
   padding: 15px;
@@ -100,3 +118,4 @@
   margin-top: 15px;
   line-height: 1.5;
 }
+
